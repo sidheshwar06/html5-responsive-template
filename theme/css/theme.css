@@ -1,0 +1,38 @@
+.bottom{
+    margin-top: 100px;
+    height: 400px;
+    background-color: #20202F;
+}
+
+.bottom-inner img{
+    display: block;
+    margin: auto;
+    width: auto;
+
+    background-color: red;
+}
+
+
+
+
+
+
+.icon-default {
+    position: absolute;
+    left: 50%;
+    top: -59px;
+    width: 254px;
+   background: url('../images/pattern-white.png') no-repeat center center;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    height: 59px;
+    z-index: 30;
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+.icon-dark {
+    background: url('../images/pattern-dark.png') no-repeat center center;
+}
