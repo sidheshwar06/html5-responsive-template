@@ -1,6 +1,75 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project: Laboom - Restaurant HTML Template
+Version: 1.0
+Last change: October 24, 2017
+Assigned to: SK Themes
+Primary use: Restaurant 
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2. Typography
+3. Header
+4. Slider
+5. Main Menu
+6. Chef
+7. Food Hours
+8. Client
+9. Instagram
+10. Footer
+11. Map Address
+12. Menu Page
+13. Gallery Page
+14. Blog List With Sidebar
+15. Shop Single
+16. Shop Cart
+17. Shop Checkout
+18. Login & Register
+19. Contact
+20. 404 Page
+21. FAQ
+22. Terms & Condition
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[Color codes]
+
+Background: #ffffff
+Content: #7a7676
+Header h1 to h6: #383848
+Footer: #20202f
+
+a (standard): #e4b95b
+a (hover): #383848
+a (active): #383848
+a (focus): #383848
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[Typography]
+
+Body copy: 16px/26px Source Sans Pro, Graviola-Regular, QuicksandBook, jey;
+Headers: 15px/42px Source Sans Pro, Graviola-Regular, QuicksandBook, jey;
+Input, textarea: 14px 14px/42px Source Sans Pro, Graviola-Regular, QuicksandBook, jey;
+Sidebar heading: 18px 14px/42px Source Sans Pro, Graviola-Regular, QuicksandBook, jey;
+-------------------------------------------------------------------*/
+
+
+body{
+     background-color:#ffffff;   
+}
+
+
 .bottom{
     margin-top: 100px;
-    height: 400px;
+    height: 300px;
     background-color: #20202F;
 }
 
@@ -12,27 +81,34 @@
     background-color: red;
 }
 
-
-
-
-
-
-.icon-default {
-    position: absolute;
-    left: 50%;
-    top: -59px;
-    width: 254px;
-   background: url('../images/pattern-white.png') no-repeat center center;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    transform: translateX(-50%);
-    height: 59px;
-    z-index: 30;
+.bottom-content{
+    color: #ffffff;
+}
+.bottom-content h3{
+    color: #e4b95b;
     text-align: center;
-    padding: 20px 0 0 0;
 }
-.icon-dark {
-    background: url('../images/pattern-dark.png') no-repeat center center;
+.bottom-content .bottom-content-data{
+    color: #fff;
+    text-align: center;
 }
+.bottom-content .footer-bar-credit{
+        color: #BDA5A0;
+    text-align: center;
+}
+.footer-bar-credit a{
+text-decoration: none;
+text-decoration: none; 
+    
+}
+.footer-bar-credit a:hover{
+        color: #fffff;
+    
+}
+/*
+#8D8D96
+#8D8D96
+BDA5A0
+*/
+
+
